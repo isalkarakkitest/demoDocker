@@ -1,0 +1,10 @@
+version: '3'
+
+service:
+ spring-boot-aws-docker-app:
+   image: akkiaws/spring-boot-docker-image
+   build:
+     context: ./
+     dockerfile: Dockerfile
+   ports:
+      - '80:9991'
