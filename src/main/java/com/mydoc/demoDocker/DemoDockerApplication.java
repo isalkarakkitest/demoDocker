@@ -11,7 +11,7 @@ public class DemoDockerApplication {
 	
 	@GetMapping("/hello")
 	public String myMessage() {
-		return "Welcome to Docker Demo !!!";
+		return "Welcome to My New Docker Demo !!!";
 	}
 
 	public static void main(String[] args) {
